@@ -1,5 +1,9 @@
 <?php
 
+namespace App\Helpers;
+
+use Exception;
+
 class Validator
 {
     /**

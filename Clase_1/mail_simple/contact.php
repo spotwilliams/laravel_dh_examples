@@ -1,29 +1,15 @@
 <?php
-/*
- *  CONFIGURE EVERYTHING HERE
- */
 
-// Servidor de mail
-$from = 'Ricardo Vergara Web Page <rvergara@remain-it.com>';
-
-
-$sendTo = 'Ricardo Vergara Admin <ricardovergarawork@gmail.com>';
-
-// subject of the email
-$subject = 'Mail desde la clase';
-
-// form field names and their translations.
-// array variable name => Text to appear in the email
-
-
-// message that will be displayed when everything is OK :)
+$from     = 'Ricardo Vergara Web Page <rvergara@remain-it.com>';
+$sendTo   = 'Ricardo Vergara Admin <ricardovergarawork@gmail.com>';
+$subject  = 'Mail desde la clase';
 $messages = [];
 try {
     if ($_POST) {
         
-        Validator::check($_POST);
+        \App\Helpers\Validator::check($_POST);
         
-        $emailText = "Mensaje de " . $_POST['name'] . ' - ' . $_POST['email'] . ' - ' . $_POST['phone'] . "\n=============================\n"
+        $emailText = "Mensaje de " . $_POST['name'] . ' - ' . $_POST['email'] .  "\n=============================\n"
             . $_POST['message'];
         
         

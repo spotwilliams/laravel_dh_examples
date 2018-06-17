@@ -58,7 +58,7 @@ include 'contact.php';
                             <div class="form-group">
                                 <label for="form_name">Firstname *</label>
                                 <input id="form_name" type="text" name="name" class="form-control"
-                                       value="<?php echo Old::show('name') ?>"
+                                       value="<?php echo \App\Helpers\Old::show('name') ?>"
                                        placeholder="Please enter your firstname *"
                                        data-error="Firstname is required.">
                                 <div class="help-block with-errors"></div>
@@ -68,7 +68,7 @@ include 'contact.php';
                             <div class="form-group">
                                 <label for="form_lastname">Lastname *</label>
                                 <input id="form_lastname" type="text" name="surname" class="form-control"
-                                       value="<?php echo Old::show('surname') ?>"
+                                       value="<?php echo \App\Helpers\Old::show('surname') ?>"
                                        placeholder="Please enter your lastname *"
                                        data-error="Lastname is required.">
                                 <div class="help-block with-errors"></div>
@@ -80,7 +80,7 @@ include 'contact.php';
                             <div class="form-group">
                                 <label for="form_email">Email *</label>
                                 <input id="form_email" type="text" name="email" class="form-control"
-                                       value="<?php echo Old::show('email') ?>"
+                                       value="<?php echo \App\Helpers\Old::show('email') ?>"
                                        placeholder="Please enter your email *"
                                        data-error="Valid email is required.">
                                 <div class="help-block with-errors"></div>
@@ -103,7 +103,7 @@ include 'contact.php';
                                 <textarea id="form_message" name="message" class="form-control"
 
                                           placeholder="Message for me *" rows="4"
-                                          data-error="Please,leave us a message."><?php echo Old::show('message') ?></textarea>
+                                          data-error="Please,leave us a message."><?php echo \App\Helpers\Old::show('message') ?></textarea>
                                 <div class="help-block with-errors"></div>
                             </div>
                         </div>
