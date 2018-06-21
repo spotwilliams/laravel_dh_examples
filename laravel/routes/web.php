@@ -16,9 +16,32 @@ Route::get('/', function () {
 });
 
 
-Route::get('saludar/nombre/{nombre}/apellido/{apellido?}', function ($nombre, $apellido = 'NA') {
+Route::get('hola/nombre/{nombre}/apellido/{apellido?}'
+        , function ($nombre, $apellido = 'NA') {
     echo "Hola $apellido, $nombre";
 });
 
 
 Route::get('bienvenido', 'InicioController@index');
+
+
+Route::get('listado/jedis', 'JediController@lista');
+
+Route::get('listado/sith', 'SithController@lista');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

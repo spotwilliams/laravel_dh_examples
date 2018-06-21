@@ -9,6 +9,7 @@ class InicioController extends Controller
     
     public function index(Request $request)
     {
-        return view('estaticos/bienvenido');
+        
+        return view('estaticos.bienvenido');
     }
 }
