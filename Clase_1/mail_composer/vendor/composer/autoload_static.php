@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit2944b22b253e146a967c97a5ae26dfcd
+class ComposerStaticInit5ed8f3e49758df4bb00918f5803b7d19
 {
     public static $prefixLengthsPsr4 = array (
         'P' => 
@@ -28,22 +28,11 @@ class ComposerStaticInit2944b22b253e146a967c97a5ae26dfcd
         ),
     );
 
-    public static $classMap = array (
-        'App\\Helpers\\Old' => __DIR__ . '/../..' . '/Helpers/Old.php',
-        'App\\Helpers\\Validator' => __DIR__ . '/../..' . '/Helpers/Validator.php',
-        'PHPMailer\\PHPMailer\\Exception' => __DIR__ . '/..' . '/phpmailer/phpmailer/src/Exception.php',
-        'PHPMailer\\PHPMailer\\OAuth' => __DIR__ . '/..' . '/phpmailer/phpmailer/src/OAuth.php',
-        'PHPMailer\\PHPMailer\\PHPMailer' => __DIR__ . '/..' . '/phpmailer/phpmailer/src/PHPMailer.php',
-        'PHPMailer\\PHPMailer\\POP3' => __DIR__ . '/..' . '/phpmailer/phpmailer/src/POP3.php',
-        'PHPMailer\\PHPMailer\\SMTP' => __DIR__ . '/..' . '/phpmailer/phpmailer/src/SMTP.php',
-    );
-
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit2944b22b253e146a967c97a5ae26dfcd::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit2944b22b253e146a967c97a5ae26dfcd::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit2944b22b253e146a967c97a5ae26dfcd::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit5ed8f3e49758df4bb00918f5803b7d19::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit5ed8f3e49758df4bb00918f5803b7d19::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }

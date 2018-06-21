@@ -1,12 +1,13 @@
 {
   "name": "digital-house/mailing",
   "description": "Ejemplo para comenzar a usar composer",
-  "require": {
-    "phpmailer/phpmailer": "^6.0"
-  },
+
   "autoload": {
     "psr-4": {
       "App\\": "./"
     }
+  },
+  "require": {
+    "phpmailer/phpmailer": "^6.0"
   }
 }
