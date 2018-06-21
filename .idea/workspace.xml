@@ -2,179 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40269762-a3fa-42cd-849b-594ade13daa7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/.env.example" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/.gitattributes" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/CHANGELOG.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/app/Console/Kernel.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/app/Exceptions/Handler.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/app/Http/Controllers/Auth/ForgotPasswordController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/app/Http/Controllers/Auth/LoginController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/app/Http/Controllers/Auth/RegisterController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/app/Http/Controllers/Auth/ResetPasswordController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/app/Http/Controllers/Controller.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/app/Http/Kernel.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/app/Http/Middleware/EncryptCookies.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/app/Http/Middleware/RedirectIfAuthenticated.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/app/Http/Middleware/TrimStrings.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/app/Http/Middleware/TrustProxies.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/app/Http/Middleware/VerifyCsrfToken.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/app/Providers/AppServiceProvider.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/app/Providers/AuthServiceProvider.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/app/Providers/BroadcastServiceProvider.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/app/Providers/EventServiceProvider.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/app/Providers/RouteServiceProvider.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/app/User.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/artisan" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/bootstrap/app.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/bootstrap/cache/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/composer.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/composer.lock" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/config/app.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/config/auth.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/config/broadcasting.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/config/cache.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/config/database.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/config/filesystems.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/config/mail.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/config/queue.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/config/services.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/config/session.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/config/view.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/database/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/database/factories/UserFactory.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/database/migrations/2014_10_12_000000_create_users_table.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/database/seeds/DatabaseSeeder.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/phpunit.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/public/.htaccess" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/public/css/app.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/public/favicon.ico" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/public/index.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/public/js/app.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/public/robots.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/public/web.config" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/readme.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/resources/assets/js/app.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/resources/assets/js/bootstrap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/resources/assets/js/components/ExampleComponent.vue" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/resources/assets/sass/_variables.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/resources/assets/sass/app.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/resources/lang/en/auth.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/resources/lang/en/pagination.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/resources/lang/en/passwords.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/resources/lang/en/validation.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/resources/views/welcome.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/routes/api.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/routes/channels.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/routes/console.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/routes/web.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/server.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/storage/app/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/storage/app/public/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/storage/framework/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/storage/framework/cache/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/storage/framework/sessions/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/storage/framework/testing/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/storage/framework/views/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/storage/logs/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/tests/CreatesApplication.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/tests/Feature/ExampleTest.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/tests/TestCase.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/tests/Unit/ExampleTest.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Clase_1/ejemplo/webpack.mix.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/composer" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/.env.example" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/.gitattributes" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/app/Console/Kernel.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/app/Exceptions/Handler.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/app/Http/Controllers/Auth/ForgotPasswordController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/app/Http/Controllers/Auth/LoginController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/app/Http/Controllers/Auth/RegisterController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/app/Http/Controllers/Auth/ResetPasswordController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/app/Http/Controllers/Controller.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/app/Http/Kernel.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/app/Http/Middleware/EncryptCookies.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/app/Http/Middleware/RedirectIfAuthenticated.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/app/Http/Middleware/TrimStrings.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/app/Http/Middleware/TrustProxies.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/app/Http/Middleware/VerifyCsrfToken.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/app/Providers/AppServiceProvider.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/app/Providers/AuthServiceProvider.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/app/Providers/BroadcastServiceProvider.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/app/Providers/EventServiceProvider.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/app/Providers/RouteServiceProvider.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/app/User.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/artisan" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/bootstrap/app.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/bootstrap/cache/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/composer.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/composer.lock" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/config/app.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/config/auth.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/config/broadcasting.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/config/cache.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/config/database.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/config/filesystems.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/config/hashing.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/config/logging.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/config/mail.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/config/queue.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/config/services.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/config/session.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/config/view.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/database/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/database/factories/UserFactory.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/database/migrations/2014_10_12_000000_create_users_table.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/database/seeds/DatabaseSeeder.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/phpunit.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/public/.htaccess" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/public/css/app.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/public/favicon.ico" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/public/index.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/app.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/public/robots.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/public/web.config" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/readme.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/resources/assets/js/app.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/resources/assets/js/bootstrap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/resources/assets/js/components/ExampleComponent.vue" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/resources/assets/sass/_variables.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/resources/assets/sass/app.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/resources/lang/en/auth.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/resources/lang/en/pagination.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/resources/lang/en/passwords.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/resources/lang/en/validation.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/resources/views/welcome.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/routes/api.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/routes/channels.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/routes/console.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/routes/web.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/server.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/storage/app/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/storage/app/public/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/storage/framework/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/storage/framework/cache/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/storage/framework/sessions/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/storage/framework/testing/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/storage/framework/views/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/storage/logs/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/tests/CreatesApplication.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/tests/Feature/ExampleTest.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/tests/TestCase.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/tests/Unit/ExampleTest.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/laravel/webpack.mix.js" />
       <change beforePath="$PROJECT_DIR$/.idea/Clase1.iml" afterPath="$PROJECT_DIR$/.idea/Clase1.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Clase_1/mail_composer/composer.json" afterPath="$PROJECT_DIR$/Clase_1/mail_composer/composer.json" />
-      <change beforePath="$PROJECT_DIR$/Clase_1/mail_composer/vendor/autoload.php" afterPath="$PROJECT_DIR$/Clase_1/mail_composer/vendor/autoload.php" />
-      <change beforePath="$PROJECT_DIR$/Clase_1/mail_composer/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/Clase_1/mail_composer/vendor/composer/autoload_classmap.php" />
-      <change beforePath="$PROJECT_DIR$/Clase_1/mail_composer/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/Clase_1/mail_composer/vendor/composer/autoload_real.php" />
-      <change beforePath="$PROJECT_DIR$/Clase_1/mail_composer/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/Clase_1/mail_composer/vendor/composer/autoload_static.php" />
+      <change beforePath="$PROJECT_DIR$/laravel/routes/web.php" afterPath="$PROJECT_DIR$/laravel/routes/web.php" />
     </list>
     <ignored path="Clase1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -204,35 +34,46 @@
     <favorites_list name="Clase1" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Clase_1/ejemplo/routes/web.php">
+    <leaf>
+      <file leaf-file-name="InicioController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/InicioController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="297">
+              <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/resources/views/welcome.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
               <folding>
-                <element signature="e#7#389#0#PHP" expanded="true" />
+                <marker date="1529411582171" expanded="true" signature="30:50" ph="..." />
+                <marker date="1529411582171" expanded="true" signature="1760:1779" ph="..." />
+                <marker date="1529411582171" expanded="true" signature="1888:1902" ph="..." />
+                <marker date="1529411582171" expanded="true" signature="1976:1992" ph="..." />
+                <marker date="1529411582171" expanded="true" signature="2041:2060" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bienvenido.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Clase_1/ejemplo/resources/views/estaticos/bienvenido.blade.php">
+      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/laravel/resources/views/layouts/app.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InicioController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Clase_1/ejemplo/app/Http/Controllers/InicioController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="30" />
-              <folding />
+            <state relative-caret-position="324">
+              <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+              <folding>
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+                <marker date="1529549163483" expanded="true" signature="30:50" ph="..." />
+                <marker date="1529549163483" expanded="true" signature="1528:1547" ph="..." />
+                <marker date="1529549163483" expanded="true" signature="1632:1646" ph="..." />
+                <marker date="1529549163483" expanded="true" signature="1704:1720" ph="..." />
+                <marker date="1529549163483" expanded="true" signature="1761:1780" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -275,11 +116,13 @@
         <option value="$PROJECT_DIR$/Clase_1/mail_composer/contact.php" />
         <option value="$PROJECT_DIR$/laravel/app/User.php" />
         <option value="$PROJECT_DIR$/laravel/config/app.php" />
-        <option value="$PROJECT_DIR$/laravel/routes/web.php" />
         <option value="$PROJECT_DIR$/Clase_1/mail_composer/composer.json" />
         <option value="$PROJECT_DIR$/Clase_1/ejemplo/resources/views/bienvenido.blade.php" />
         <option value="$PROJECT_DIR$/Clase_1/ejemplo/app/Http/Controllers/InicioController.php" />
         <option value="$PROJECT_DIR$/Clase_1/ejemplo/routes/web.php" />
+        <option value="$PROJECT_DIR$/laravel/routes/web.php" />
+        <option value="$PROJECT_DIR$/laravel/app/Http/Controllers/InicioController.php" />
+        <option value="$PROJECT_DIR$/laravel/resources/views/layouts/app.blade.php" />
       </list>
     </option>
   </component>
@@ -312,7 +155,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -323,41 +166,25 @@
             <path>
               <item name="Clase1" type="b2602c69:ProjectViewProjectNode" />
               <item name="DigitalHouse" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Clase_1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Clase1" type="b2602c69:ProjectViewProjectNode" />
               <item name="DigitalHouse" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Clase_1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ejemplo" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Clase1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DigitalHouse" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Clase_1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ejemplo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Clase1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DigitalHouse" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Clase_1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ejemplo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Clase1" type="b2602c69:ProjectViewProjectNode" />
               <item name="DigitalHouse" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Clase_1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ejemplo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Clase1" type="b2602c69:ProjectViewProjectNode" />
               <item name="DigitalHouse" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Clase_1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ejemplo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="estaticos" type="2a2b976b:PhpTreeStructureProvider$1" />
@@ -365,15 +192,22 @@
             <path>
               <item name="Clase1" type="b2602c69:ProjectViewProjectNode" />
               <item name="DigitalHouse" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Clase_1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ejemplo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Clase1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DigitalHouse" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -383,6 +217,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="SearchEverywhereHistoryKey" value="InicioController&#9;ACTION&#9;null" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -456,17 +291,19 @@
       <workItem from="1529414602209" duration="102000" />
       <workItem from="1529414723517" duration="3404000" />
       <workItem from="1529543333644" duration="154000" />
+      <workItem from="1529548385643" duration="432000" />
+      <workItem from="1529548830993" duration="254000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14346000" />
+    <option name="totallyTimeSpent" value="15032000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39495113" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40309447" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -508,51 +345,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Clase_1/mail_simple/Old.php" />
-    <entry file="file://$PROJECT_DIR$/Clase_1/mail_simple/Validator.php" />
-    <entry file="file://$PROJECT_DIR$/Clase_1/mail_simple/deprecated/contact-2.php" />
-    <entry file="file://$PROJECT_DIR$/Clase_1/mail_simple/contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="80" lean-forward="false" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Clase_1/mail_simple/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="124" column="24" lean-forward="true" selection-start-line="124" selection-start-column="24" selection-end-line="124" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Clase_1/mail_composer/vendor/composer/autoload_classmap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="89" lean-forward="false" selection-start-line="12" selection-start-column="80" selection-end-line="12" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Clase_1/mail_simple/PHPMailer-master/class.phpmailer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14080">
-          <caret line="656" column="20" lean-forward="false" selection-start-line="656" selection-start-column="20" selection-end-line="656" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Clase_1/mail_composer/vendor/composer/autoload_real.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Clase_1/mail_composer/vendor/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="70" lean-forward="false" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Clase_1/mail_simple/contact.php" />
+    <entry file="file://$PROJECT_DIR$/Clase_1/mail_simple/index.php" />
+    <entry file="file://$PROJECT_DIR$/Clase_1/mail_composer/vendor/composer/autoload_classmap.php" />
+    <entry file="file://$PROJECT_DIR$/Clase_1/mail_simple/PHPMailer-master/class.phpmailer.php" />
+    <entry file="file://$PROJECT_DIR$/Clase_1/mail_composer/vendor/composer/autoload_real.php" />
+    <entry file="file://$PROJECT_DIR$/Clase_1/mail_composer/vendor/autoload.php" />
     <entry file="file://$PROJECT_DIR$/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Auth/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -589,13 +387,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/resources/assets/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -645,13 +436,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/Exceptions/Handler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -716,126 +500,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Clase_1/mail_composer/Helpers/Old.php" />
+    <entry file="file://$PROJECT_DIR$/Clase_1/mail_composer/index.php" />
+    <entry file="file://$PROJECT_DIR$/Clase_1/mail_composer/composer.lock" />
+    <entry file="file://$PROJECT_DIR$/Clase_1/mail_composer/composer.json" />
+    <entry file="file://$PROJECT_DIR$/Clase_1/mail_composer/Helpers/Validator.php" />
+    <entry file="file://$PROJECT_DIR$/Clase_1/mail_composer/contact.php" />
+    <entry file="file://$PROJECT_DIR$/Clase_1/ejemplo/bootstrap/app.php" />
+    <entry file="file://$PROJECT_DIR$/Clase_1/ejemplo/config/services.php" />
+    <entry file="file://$PROJECT_DIR$/Clase_1/ejemplo/config/session.php" />
+    <entry file="file://$PROJECT_DIR$/Clase_1/ejemplo/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/Clase_1/ejemplo/.env" />
+    <entry file="file://$PROJECT_DIR$/Clase_1/ejemplo/app/Http/Controllers/Auth/RegisterController.php" />
+    <entry file="file://$PROJECT_DIR$/Clase_1/ejemplo/app/Http/Controllers/Controller.php" />
+    <entry file="file://$PROJECT_DIR$/Clase_1/ejemplo/resources/views/estaticos/bienvenido.blade.php" />
+    <entry file="file://$PROJECT_DIR$/Clase_1/ejemplo/app/Http/Controllers/InicioController.php" />
+    <entry file="file://$PROJECT_DIR$/Clase_1/ejemplo/routes/web.php" />
+    <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Clase_1/mail_composer/Helpers/Old.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Clase_1/mail_composer/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Clase_1/mail_composer/composer.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-133">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Clase_1/mail_composer/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Clase_1/mail_composer/Helpers/Validator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Clase_1/mail_composer/contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="12" column="73" lean-forward="false" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Clase_1/ejemplo/bootstrap/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Clase_1/ejemplo/config/services.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-160">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Clase_1/ejemplo/config/session.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Clase_1/ejemplo/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Clase_1/ejemplo/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Clase_1/ejemplo/app/Http/Controllers/Auth/RegisterController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <caret line="38" column="25" lean-forward="false" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Clase_1/ejemplo/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Clase_1/ejemplo/resources/views/estaticos/bienvenido.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="297">
+          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Clase_1/ejemplo/app/Http/Controllers/InicioController.php">
+    <entry file="file://$PROJECT_DIR$/laravel/resources/views/estaticos/bienvenido.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="30" />
+        <state relative-caret-position="81">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Clase_1/ejemplo/routes/web.php">
+    <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/InicioController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="297">
+          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
           <folding>
-            <element signature="e#7#389#0#PHP" expanded="true" />
+            <marker date="1529411582171" expanded="true" signature="30:50" ph="..." />
+            <marker date="1529411582171" expanded="true" signature="1760:1779" ph="..." />
+            <marker date="1529411582171" expanded="true" signature="1888:1902" ph="..." />
+            <marker date="1529411582171" expanded="true" signature="1976:1992" ph="..." />
+            <marker date="1529411582171" expanded="true" signature="2041:2060" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1529549163483" expanded="true" signature="30:50" ph="..." />
+            <marker date="1529549163483" expanded="true" signature="1528:1547" ph="..." />
+            <marker date="1529549163483" expanded="true" signature="1632:1646" ph="..." />
+            <marker date="1529549163483" expanded="true" signature="1704:1720" ph="..." />
+            <marker date="1529549163483" expanded="true" signature="1761:1780" ph="..." />
           </folding>
         </state>
       </provider>
