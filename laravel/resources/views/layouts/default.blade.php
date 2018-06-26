@@ -45,6 +45,7 @@
             <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="#about">Menu</a>
             </li>
+            @yield('titulos')
         </ul>
     </div>
 </nav>
