@@ -52,9 +52,13 @@
 
 <div class="container-fluid p-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
-
-        @yield('contenido')
+    <section class="resume-section p-3 p-lg-5 d-flex d-column">
+        <div class="my-auto">
+            <h1 class="mb-0">@yield('titulo_1')
+                <span class="text-primary">@yield('titulo_2')</span>
+            </h1>
+            @yield('contenido')
+        </div>
 
     </section>
 
