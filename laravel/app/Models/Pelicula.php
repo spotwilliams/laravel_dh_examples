@@ -6,5 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Pelicula extends Model
 {
-    protected $table      = 'movies';
+    protected $table = 'movies';
+    
+    protected $guarded = [];
 }

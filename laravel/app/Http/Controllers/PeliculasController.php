@@ -27,4 +27,65 @@ class PeliculasController extends Controller
         
         return $view;
     }
+    
+    public function add(Request $request)
+    {
+        $view = view('peliculas.add');
+        
+        return $view;
+    }
+    
+    public function crear(Request $request)
+    {
+        $this->validate(
+            $request,
+            [
+                'title'        => 'required',
+                'rating'       => 'required|numeric',
+                'awards'       => 'required|integer',
+                'release_date' => 'required',
+            
+            ],
+            [
+                'title.required'  => 'El nombre de la pelicula es obligatorio',
+                'rating.required' => 'El rating es obligatorio',
+                'rating.numeric'  => 'El rating es un campo numerico',
+                //                    'required' => 'El campo :attribute es obligatorio',
+            ]);
+        
+        // Primer manera
+//        $peli = new Pelicula($request->except(['_token']));
+
+//        $peli->save();
+        
+        // Segunda manera
+        // Pelicula::create($request->except(['_token']));
+        
+        
+        // Tercer manera. Hacer update o create
+        /** @var Pelicula $peli */
+        $peli = Pelicula::where('title', '=', $request->input('title'))
+            // First devuelve una instancia de la clase Pelicula
+            ->first();
+        
+        if ($peli) {
+            // Manera rapida
+//            $peli->fill($request->except(['_token', 'title']));
+            
+            // Manera Richard
+            $peli->rating       = $request->input('rating');
+            $peli->awards       = $request->input('awards');
+            $peli->release_date = $request->input('release_date');
+            
+        } else {
+            $peli = new Pelicula($request->except(['_token']));
+        }
+        
+        $peli->save();
+        
+        
+        return redirect('/peliculas/add')
+            ->with('exito', 'La pelicula ha sido guardada con éxito!');
+        
+    }
 }
