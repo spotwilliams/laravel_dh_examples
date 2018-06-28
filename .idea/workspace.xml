@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40269762-a3fa-42cd-849b-594ade13daa7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/laravel/app/Http/Controllers/PeliculasController.php" afterPath="$PROJECT_DIR$/laravel/app/Http/Controllers/PeliculasController.php" />
-      <change beforePath="$PROJECT_DIR$/laravel/app/Models/Pelicula.php" afterPath="$PROJECT_DIR$/laravel/app/Models/Pelicula.php" />
-      <change beforePath="$PROJECT_DIR$/laravel/routes/web.php" afterPath="$PROJECT_DIR$/laravel/routes/web.php" />
+      <change beforePath="$PROJECT_DIR$/laravel/resources/views/peliculas/add.blade.php" afterPath="$PROJECT_DIR$/laravel/resources/views/peliculas/add.blade.php" />
     </list>
     <ignored path="Clase1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,10 +33,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="PeliculasController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PeliculasController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/PeliculasController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="1191">
               <caret line="78" column="12" lean-forward="false" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
               <folding>
                 <element signature="e#40#61#0#PHP" expanded="true" />
@@ -57,22 +55,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="add.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/laravel/resources/views/peliculas/add.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="34" />
+            <state relative-caret-position="39">
+              <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
               <folding>
-                <marker date="1530194058890" expanded="true" signature="9:26" ph="..." />
-                <marker date="1530194058890" expanded="true" signature="38:63" ph="..." />
-                <marker date="1530194058890" expanded="true" signature="74:96" ph="..." />
-                <marker date="1530194058890" expanded="true" signature="108:119" ph="..." />
-                <marker date="1530194058890" expanded="true" signature="136:156" ph="..." />
-                <marker date="1530194058890" expanded="true" signature="242:254" ph="..." />
-                <marker date="1530194058890" expanded="true" signature="416:428" ph="..." />
-                <marker date="1530194058890" expanded="true" signature="610:623" ph="..." />
-                <marker date="1530194058890" expanded="true" signature="805:818" ph="..." />
-                <marker date="1530194058890" expanded="true" signature="1014:1033" ph="..." />
+                <marker date="1530195121756" expanded="true" signature="9:26" ph="..." />
+                <marker date="1530195121756" expanded="true" signature="38:63" ph="..." />
+                <marker date="1530195121756" expanded="true" signature="74:96" ph="..." />
+                <marker date="1530195121756" expanded="true" signature="108:119" ph="..." />
+                <marker date="1530195121756" expanded="true" signature="136:156" ph="..." />
+                <marker date="1530195121756" expanded="true" signature="242:254" ph="..." />
+                <marker date="1530195121756" expanded="true" signature="416:428" ph="..." />
+                <marker date="1530195121756" expanded="true" signature="609:622" ph="..." />
+                <marker date="1530195121756" expanded="true" signature="803:816" ph="..." />
+                <marker date="1530195121756" expanded="true" signature="1011:1030" ph="..." />
               </folding>
             </state>
           </provider>
@@ -151,8 +149,8 @@
         <option value="$PROJECT_DIR$/laravel/routes/web.php" />
         <option value="$PROJECT_DIR$/laravel/app/Models/Pelicula.php" />
         <option value="$PROJECT_DIR$/laravel/resources/views/estaticos/mensajes.blade.php" />
-        <option value="$PROJECT_DIR$/laravel/resources/views/peliculas/add.blade.php" />
         <option value="$PROJECT_DIR$/laravel/app/Http/Controllers/PeliculasController.php" />
+        <option value="$PROJECT_DIR$/laravel/resources/views/peliculas/add.blade.php" />
       </list>
     </option>
   </component>
@@ -353,18 +351,18 @@
       <workItem from="1529958707282" duration="402000" />
       <workItem from="1530012782854" duration="6007000" />
       <workItem from="1530148904652" duration="2218000" />
-      <workItem from="1530185671198" duration="7156000" />
+      <workItem from="1530185671198" duration="7610000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37660000" />
+    <option name="totallyTimeSpent" value="38114000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31996727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31996727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -677,31 +675,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/resources/views/peliculas/add.blade.php">
+    <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/PeliculasController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="34" />
+        <state relative-caret-position="1191">
+          <caret line="78" column="12" lean-forward="false" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
           <folding>
-            <marker date="1530194058890" expanded="true" signature="9:26" ph="..." />
-            <marker date="1530194058890" expanded="true" signature="38:63" ph="..." />
-            <marker date="1530194058890" expanded="true" signature="74:96" ph="..." />
-            <marker date="1530194058890" expanded="true" signature="108:119" ph="..." />
-            <marker date="1530194058890" expanded="true" signature="136:156" ph="..." />
-            <marker date="1530194058890" expanded="true" signature="242:254" ph="..." />
-            <marker date="1530194058890" expanded="true" signature="416:428" ph="..." />
-            <marker date="1530194058890" expanded="true" signature="610:623" ph="..." />
-            <marker date="1530194058890" expanded="true" signature="805:818" ph="..." />
-            <marker date="1530194058890" expanded="true" signature="1014:1033" ph="..." />
+            <element signature="e#40#61#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/PeliculasController.php">
+    <entry file="file://$PROJECT_DIR$/laravel/resources/views/peliculas/add.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="78" column="12" lean-forward="false" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
+        <state relative-caret-position="39">
+          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
           <folding>
-            <element signature="e#40#61#0#PHP" expanded="true" />
+            <marker date="1530195121756" expanded="true" signature="9:26" ph="..." />
+            <marker date="1530195121756" expanded="true" signature="38:63" ph="..." />
+            <marker date="1530195121756" expanded="true" signature="74:96" ph="..." />
+            <marker date="1530195121756" expanded="true" signature="108:119" ph="..." />
+            <marker date="1530195121756" expanded="true" signature="136:156" ph="..." />
+            <marker date="1530195121756" expanded="true" signature="242:254" ph="..." />
+            <marker date="1530195121756" expanded="true" signature="416:428" ph="..." />
+            <marker date="1530195121756" expanded="true" signature="609:622" ph="..." />
+            <marker date="1530195121756" expanded="true" signature="803:816" ph="..." />
+            <marker date="1530195121756" expanded="true" signature="1011:1030" ph="..." />
           </folding>
         </state>
       </provider>
