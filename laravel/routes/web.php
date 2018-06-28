@@ -33,7 +33,7 @@ Route::get('listado/sith', 'SithController@lista');
 Route::get('peliculas', 'PeliculasController@index');
 
 
-
+Route::get('series', 'SeriesController@index');
 
 
 

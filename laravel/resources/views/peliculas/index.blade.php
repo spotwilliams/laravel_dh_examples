@@ -3,6 +3,9 @@
 
 @section('contenido')
 
+@section('titulo_1', 'Listado de ')
+@section('titulo_2', 'peliculas')
+
     {{$mensaje}}
     <ul>
 

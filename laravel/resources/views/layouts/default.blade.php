@@ -57,6 +57,7 @@
             <h1 class="mb-0">@yield('titulo_1')
                 <span class="text-primary">@yield('titulo_2')</span>
             </h1>
+            <br>
             @yield('contenido')
         </div>
 

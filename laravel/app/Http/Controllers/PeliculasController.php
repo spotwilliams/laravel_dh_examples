@@ -18,7 +18,7 @@ class PeliculasController extends Controller
             ->take(5)
             ->get();
         
-        dd($peliculas);
+        $peliculas = Pelicula::all();
         
         $view = view('peliculas.index');
         
