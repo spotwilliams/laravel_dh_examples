@@ -22,6 +22,7 @@
 
         <div class="form-group row">
             <label class="col-md-4">Tipo de peli</label>
+
             <select name="genre_id" class="col-md-8 form-control">
                 <option value="-1">Seleccione un pleasee</option>
                 @foreach($lista_generos  as $genero)

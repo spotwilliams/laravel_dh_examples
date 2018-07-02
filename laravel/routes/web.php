@@ -38,7 +38,9 @@ Route::get('peliculas', 'PeliculasController@index');
 
 Route::get('series', 'SeriesController@index');
 
+// Generos
 
+Route::get('generos', 'GeneroController@index');
 
 
 

@@ -10,7 +10,7 @@
     <ul>
 
         @foreach($peliculas as $peli)
-            <li><a href="/peliculas/edit/{{$peli->id}}">{{$peli->title}}</a></li>
+            <li><a href="/peliculas/edit/{{$peli->id}}">{{$peli->title}}</a> ({{$peli->genero->name}})</li>
         @endforeach
     </ul>
 @endsection
