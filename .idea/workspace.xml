@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="40269762-a3fa-42cd-849b-594ade13daa7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/laravel/app/Http/Controllers/PeliculasController.php" afterPath="$PROJECT_DIR$/laravel/app/Http/Controllers/PeliculasController.php" />
+      <change beforePath="$PROJECT_DIR$/laravel/routes/web.php" afterPath="$PROJECT_DIR$/laravel/routes/web.php" />
     </list>
     <ignored path="Clase1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,41 +38,48 @@
       <file leaf-file-name="PeliculasController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/PeliculasController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="78" column="12" lean-forward="false" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
-              <folding>
-                <element signature="e#40#61#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Pelicula.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/app/Models/Pelicula.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            <state relative-caret-position="393">
+              <caret line="95" column="37" lean-forward="true" selection-start-line="95" selection-start-column="37" selection-end-line="95" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/resources/views/peliculas/add.blade.php">
+      <file leaf-file-name="Pelicula.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/laravel/app/Models/Pelicula.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            <state relative-caret-position="270">
+              <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Director.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/app/Models/Director.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/resources/views/peliculas/show.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
-                <marker date="1530195121756" expanded="true" signature="9:26" ph="..." />
-                <marker date="1530195121756" expanded="true" signature="38:63" ph="..." />
-                <marker date="1530195121756" expanded="true" signature="74:96" ph="..." />
-                <marker date="1530195121756" expanded="true" signature="108:119" ph="..." />
-                <marker date="1530195121756" expanded="true" signature="136:156" ph="..." />
-                <marker date="1530195121756" expanded="true" signature="242:254" ph="..." />
-                <marker date="1530195121756" expanded="true" signature="416:428" ph="..." />
-                <marker date="1530195121756" expanded="true" signature="609:622" ph="..." />
-                <marker date="1530195121756" expanded="true" signature="803:816" ph="..." />
-                <marker date="1530195121756" expanded="true" signature="1011:1030" ph="..." />
+                <marker date="1530499950468" expanded="true" signature="9:26" ph="..." />
+                <marker date="1530499950468" expanded="true" signature="38:63" ph="..." />
+                <marker date="1530499950468" expanded="true" signature="74:96" ph="..." />
+                <marker date="1530499950468" expanded="true" signature="108:119" ph="..." />
+                <marker date="1530499950468" expanded="true" signature="136:156" ph="..." />
+                <marker date="1530499950468" expanded="true" signature="196:212" ph="..." />
+                <marker date="1530499950468" expanded="true" signature="221:240" ph="..." />
+                <marker date="1530499950468" expanded="true" signature="262:287" ph="..." />
+                <marker date="1530499950468" expanded="true" signature="304:317" ph="..." />
               </folding>
             </state>
           </provider>
@@ -79,28 +88,8 @@
       <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2018_07_02_023157_create_directors_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/database/migrations/2018_07_02_023157_create_directors_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2018_07_02_023252_add_directors_key_movies_table.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/laravel/database/migrations/2018_07_02_023252_add_directors_key_movies_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            <state relative-caret-position="327">
+              <caret line="34" column="62" lean-forward="false" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -166,13 +155,18 @@
         <option value="$PROJECT_DIR$/laravel/app/Http/Controllers/SeriesController.php" />
         <option value="$PROJECT_DIR$/laravel/app/Models/TvShow.php" />
         <option value="$PROJECT_DIR$/laravel/resources/views/series/index.blade.php" />
-        <option value="$PROJECT_DIR$/laravel/routes/web.php" />
-        <option value="$PROJECT_DIR$/laravel/app/Models/Pelicula.php" />
         <option value="$PROJECT_DIR$/laravel/resources/views/estaticos/mensajes.blade.php" />
-        <option value="$PROJECT_DIR$/laravel/app/Http/Controllers/PeliculasController.php" />
         <option value="$PROJECT_DIR$/laravel/resources/views/peliculas/add.blade.php" />
-        <option value="$PROJECT_DIR$/laravel/database/migrations/2018_07_02_023157_create_directors_table.php" />
         <option value="$PROJECT_DIR$/laravel/database/migrations/2018_07_02_023252_add_directors_key_movies_table.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/laravel/database/migrations/2018_07_02_023157_create_directors_table.php" />
+        <option value="$PROJECT_DIR$/laravel/database/factories/UserFactory.php" />
+        <option value="$PROJECT_DIR$/laravel/app/Models/Director.php" />
+        <option value="$PROJECT_DIR$/laravel/database/seeds/DirectorSeeder.php" />
+        <option value="$PROJECT_DIR$/laravel/routes/web.php" />
+        <option value="$PROJECT_DIR$/laravel/app/Http/Controllers/PeliculasController.php" />
+        <option value="$PROJECT_DIR$/laravel/resources/views/peliculas/show.blade.php" />
+        <option value="$PROJECT_DIR$/laravel/app/Models/Pelicula.php" />
       </list>
     </option>
   </component>
@@ -222,6 +216,34 @@
               <item name="Clase1" type="b2602c69:ProjectViewProjectNode" />
               <item name="DigitalHouse" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Clase1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DigitalHouse" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Clase1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DigitalHouse" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Clase1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DigitalHouse" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Models" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Clase1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DigitalHouse" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -229,7 +251,42 @@
               <item name="DigitalHouse" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="factories" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Clase1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DigitalHouse" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="migrations" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Clase1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DigitalHouse" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="seeds" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Clase1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DigitalHouse" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Clase1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DigitalHouse" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Clase1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DigitalHouse" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="peliculas" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Clase1" type="b2602c69:ProjectViewProjectNode" />
@@ -252,21 +309,21 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="SearchEverywhereHistoryKey" value="InicioController&#9;ACTION&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="Director.php&#9;FILE&#9;file:///Users/mac/PhpstormProjects/DigitalHouse/laravel/app/Models/Director.php&#10;InicioController&#9;ACTION&#9;null" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/laravel/resources/views/peliculas" />
+      <recent name="$PROJECT_DIR$/laravel/public/img" />
+      <recent name="$PROJECT_DIR$/laravel/public/js" />
+      <recent name="$PROJECT_DIR$/laravel/public/css" />
+      <recent name="$PROJECT_DIR$/laravel/public" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/laravel/app/Models" />
       <recent name="$PROJECT_DIR$/Clase_1/ejemplo/resources/views/estaticos" />
       <recent name="$PROJECT_DIR$/Clase_1/mail_composer/Helpers" />
       <recent name="$PROJECT_DIR$/Clase_1/mail_composer" />
-      <recent name="$PROJECT_DIR$/Clase_1/mail_simple" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/laravel/public/img" />
-      <recent name="$PROJECT_DIR$/laravel/public/js" />
-      <recent name="$PROJECT_DIR$/laravel/public/css" />
-      <recent name="$PROJECT_DIR$/laravel/public" />
       <recent name="$PROJECT_DIR$/Clase_1/mail_simple" />
     </key>
   </component>
@@ -336,17 +393,18 @@
       <workItem from="1530012782854" duration="6007000" />
       <workItem from="1530148904652" duration="2218000" />
       <workItem from="1530185671198" duration="8255000" />
-      <workItem from="1530498083523" duration="674000" />
+      <workItem from="1530498083523" duration="1877000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39433000" />
+    <option name="totallyTimeSpent" value="40636000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3207856" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40507364" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -354,7 +412,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.79046243" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.79046243" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -388,18 +446,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/laravel/app/Estereo.php" />
-    <entry file="file://$PROJECT_DIR$/laravel/app/Policies/EstereoPolicy.php" />
-    <entry file="file://$PROJECT_DIR$/laravel/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="203" column="14" lean-forward="false" selection-start-line="203" selection-start-column="9" selection-end-line="203" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Clase_1/mail_composer/Helpers/Old.php" />
-    <entry file="file://$PROJECT_DIR$/Clase_1/mail_composer/index.php" />
-    <entry file="file://$PROJECT_DIR$/Clase_1/mail_composer/composer.lock" />
     <entry file="file://$PROJECT_DIR$/Clase_1/mail_composer/composer.json" />
     <entry file="file://$PROJECT_DIR$/Clase_1/mail_composer/Helpers/Validator.php" />
     <entry file="file://$PROJECT_DIR$/Clase_1/mail_composer/contact.php" />
@@ -564,14 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/Models/Pelicula.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/resources/views/estaticos/mensajes.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -579,9 +617,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/database/migrations/2018_07_02_023252_add_directors_key_movies_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/resources/views/peliculas/add.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="27">
           <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
           <folding>
             <marker date="1530195121756" expanded="true" signature="9:26" ph="..." />
@@ -598,36 +652,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/PeliculasController.php">
+    <entry file="file://$PROJECT_DIR$/laravel/database/migrations/2018_07_02_023157_create_directors_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/database/seeds/DirectorSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/database/factories/UserFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/database/seeds/DatabaseSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="78" column="12" lean-forward="false" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/resources/views/peliculas/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="e#40#61#0#PHP" expanded="true" />
+            <marker date="1530499950468" expanded="true" signature="9:26" ph="..." />
+            <marker date="1530499950468" expanded="true" signature="38:63" ph="..." />
+            <marker date="1530499950468" expanded="true" signature="74:96" ph="..." />
+            <marker date="1530499950468" expanded="true" signature="108:119" ph="..." />
+            <marker date="1530499950468" expanded="true" signature="136:156" ph="..." />
+            <marker date="1530499950468" expanded="true" signature="196:212" ph="..." />
+            <marker date="1530499950468" expanded="true" signature="221:240" ph="..." />
+            <marker date="1530499950468" expanded="true" signature="262:287" ph="..." />
+            <marker date="1530499950468" expanded="true" signature="304:317" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="327">
+          <caret line="34" column="62" lean-forward="false" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/database/migrations/2018_07_02_023157_create_directors_table.php">
+    <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/PeliculasController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        <state relative-caret-position="393">
+          <caret line="95" column="37" lean-forward="true" selection-start-line="95" selection-start-column="37" selection-end-line="95" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/database/migrations/2018_07_02_023252_add_directors_key_movies_table.php">
+    <entry file="file://$PROJECT_DIR$/laravel/app/Models/Director.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        <state relative-caret-position="216">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/Models/Pelicula.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
           <folding />
         </state>
       </provider>
