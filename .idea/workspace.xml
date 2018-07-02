@@ -4,7 +4,7 @@
     <list default="true" id="40269762-a3fa-42cd-849b-594ade13daa7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/laravel/app/Http/Controllers/PeliculasController.php" afterPath="$PROJECT_DIR$/laravel/app/Http/Controllers/PeliculasController.php" />
-      <change beforePath="$PROJECT_DIR$/laravel/routes/web.php" afterPath="$PROJECT_DIR$/laravel/routes/web.php" />
+      <change beforePath="$PROJECT_DIR$/laravel/resources/views/peliculas/add.blade.php" afterPath="$PROJECT_DIR$/laravel/resources/views/peliculas/add.blade.php" />
     </list>
     <ignored path="Clase1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,62 +35,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="PeliculasController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PeliculasController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/PeliculasController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="95" column="37" lean-forward="true" selection-start-line="95" selection-start-column="37" selection-end-line="95" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Pelicula.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/laravel/app/Models/Pelicula.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Director.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/app/Models/Director.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/resources/views/peliculas/show.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="295">
+              <caret line="78" column="65" lean-forward="true" selection-start-line="78" selection-start-column="65" selection-end-line="78" selection-end-column="65" />
               <folding>
-                <marker date="1530499950468" expanded="true" signature="9:26" ph="..." />
-                <marker date="1530499950468" expanded="true" signature="38:63" ph="..." />
-                <marker date="1530499950468" expanded="true" signature="74:96" ph="..." />
-                <marker date="1530499950468" expanded="true" signature="108:119" ph="..." />
-                <marker date="1530499950468" expanded="true" signature="136:156" ph="..." />
-                <marker date="1530499950468" expanded="true" signature="196:212" ph="..." />
-                <marker date="1530499950468" expanded="true" signature="221:240" ph="..." />
-                <marker date="1530499950468" expanded="true" signature="262:287" ph="..." />
-                <marker date="1530499950468" expanded="true" signature="304:317" ph="..." />
+                <element signature="e#40#62#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/routes/web.php">
+      <file leaf-file-name="add.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/resources/views/peliculas/add.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="34" column="62" lean-forward="false" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
-              <folding />
+            <state relative-caret-position="451">
+              <caret line="24" column="48" lean-forward="false" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+              <folding>
+                <marker date="1530533412067" expanded="true" signature="9:26" ph="..." />
+                <marker date="1530533412067" expanded="true" signature="38:63" ph="..." />
+                <marker date="1530533412067" expanded="true" signature="74:96" ph="..." />
+                <marker date="1530533412067" expanded="true" signature="108:119" ph="..." />
+                <marker date="1530533412067" expanded="true" signature="136:156" ph="..." />
+                <marker date="1530533412067" expanded="true" signature="242:254" ph="..." />
+                <marker date="1530533412067" expanded="true" signature="416:428" ph="..." />
+                <marker date="1530533412067" expanded="true" signature="714:732" ph="..." />
+                <marker date="1530533412067" expanded="true" signature="714:740" ph="..." />
+                <marker date="1530533412067" expanded="true" signature="779:790" ph="..." />
+                <marker date="1530533412067" expanded="true" signature="796:809" ph="..." />
+                <marker date="1530533412067" expanded="true" signature="1035:1048" ph="..." />
+                <marker date="1530533412067" expanded="true" signature="1229:1242" ph="..." />
+                <marker date="1530533412067" expanded="true" signature="1437:1456" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,7 +133,6 @@
         <option value="$PROJECT_DIR$/laravel/app/Models/TvShow.php" />
         <option value="$PROJECT_DIR$/laravel/resources/views/series/index.blade.php" />
         <option value="$PROJECT_DIR$/laravel/resources/views/estaticos/mensajes.blade.php" />
-        <option value="$PROJECT_DIR$/laravel/resources/views/peliculas/add.blade.php" />
         <option value="$PROJECT_DIR$/laravel/database/migrations/2018_07_02_023252_add_directors_key_movies_table.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/laravel/database/migrations/2018_07_02_023157_create_directors_table.php" />
@@ -164,9 +140,11 @@
         <option value="$PROJECT_DIR$/laravel/app/Models/Director.php" />
         <option value="$PROJECT_DIR$/laravel/database/seeds/DirectorSeeder.php" />
         <option value="$PROJECT_DIR$/laravel/routes/web.php" />
-        <option value="$PROJECT_DIR$/laravel/app/Http/Controllers/PeliculasController.php" />
         <option value="$PROJECT_DIR$/laravel/resources/views/peliculas/show.blade.php" />
         <option value="$PROJECT_DIR$/laravel/app/Models/Pelicula.php" />
+        <option value="$PROJECT_DIR$/laravel/app/Models/Genero.php" />
+        <option value="$PROJECT_DIR$/laravel/resources/views/peliculas/add.blade.php" />
+        <option value="$PROJECT_DIR$/laravel/app/Http/Controllers/PeliculasController.php" />
       </list>
     </option>
   </component>
@@ -239,33 +217,6 @@
               <item name="laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Models" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Clase1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DigitalHouse" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Clase1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DigitalHouse" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="factories" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Clase1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DigitalHouse" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="migrations" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Clase1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DigitalHouse" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="seeds" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Clase1" type="b2602c69:ProjectViewProjectNode" />
@@ -393,12 +344,12 @@
       <workItem from="1530012782854" duration="6007000" />
       <workItem from="1530148904652" duration="2218000" />
       <workItem from="1530185671198" duration="8255000" />
-      <workItem from="1530498083523" duration="1877000" />
+      <workItem from="1530498083523" duration="3954000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40636000" />
+    <option name="totallyTimeSpent" value="42713000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -446,7 +397,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Clase_1/mail_composer/composer.json" />
     <entry file="file://$PROJECT_DIR$/Clase_1/mail_composer/Helpers/Validator.php" />
     <entry file="file://$PROJECT_DIR$/Clase_1/mail_composer/contact.php" />
     <entry file="file://$PROJECT_DIR$/Clase_1/ejemplo/bootstrap/app.php" />
@@ -633,25 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/resources/views/peliculas/add.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding>
-            <marker date="1530195121756" expanded="true" signature="9:26" ph="..." />
-            <marker date="1530195121756" expanded="true" signature="38:63" ph="..." />
-            <marker date="1530195121756" expanded="true" signature="74:96" ph="..." />
-            <marker date="1530195121756" expanded="true" signature="108:119" ph="..." />
-            <marker date="1530195121756" expanded="true" signature="136:156" ph="..." />
-            <marker date="1530195121756" expanded="true" signature="242:254" ph="..." />
-            <marker date="1530195121756" expanded="true" signature="416:428" ph="..." />
-            <marker date="1530195121756" expanded="true" signature="609:622" ph="..." />
-            <marker date="1530195121756" expanded="true" signature="803:816" ph="..." />
-            <marker date="1530195121756" expanded="true" signature="1011:1030" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/database/migrations/2018_07_02_023157_create_directors_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -688,32 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <marker date="1530499950468" expanded="true" signature="9:26" ph="..." />
-            <marker date="1530499950468" expanded="true" signature="38:63" ph="..." />
-            <marker date="1530499950468" expanded="true" signature="74:96" ph="..." />
-            <marker date="1530499950468" expanded="true" signature="108:119" ph="..." />
-            <marker date="1530499950468" expanded="true" signature="136:156" ph="..." />
-            <marker date="1530499950468" expanded="true" signature="196:212" ph="..." />
-            <marker date="1530499950468" expanded="true" signature="221:240" ph="..." />
-            <marker date="1530499950468" expanded="true" signature="262:287" ph="..." />
-            <marker date="1530499950468" expanded="true" signature="304:317" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="34" column="62" lean-forward="false" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/PeliculasController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="95" column="37" lean-forward="true" selection-start-line="95" selection-start-column="37" selection-end-line="95" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -728,9 +633,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/Models/Pelicula.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        <state relative-caret-position="324">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="33" column="55" lean-forward="false" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/Models/Genero.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/resources/views/peliculas/add.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="24" column="48" lean-forward="false" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+          <folding>
+            <marker date="1530533412067" expanded="true" signature="9:26" ph="..." />
+            <marker date="1530533412067" expanded="true" signature="38:63" ph="..." />
+            <marker date="1530533412067" expanded="true" signature="74:96" ph="..." />
+            <marker date="1530533412067" expanded="true" signature="108:119" ph="..." />
+            <marker date="1530533412067" expanded="true" signature="136:156" ph="..." />
+            <marker date="1530533412067" expanded="true" signature="242:254" ph="..." />
+            <marker date="1530533412067" expanded="true" signature="416:428" ph="..." />
+            <marker date="1530533412067" expanded="true" signature="714:732" ph="..." />
+            <marker date="1530533412067" expanded="true" signature="714:740" ph="..." />
+            <marker date="1530533412067" expanded="true" signature="779:790" ph="..." />
+            <marker date="1530533412067" expanded="true" signature="796:809" ph="..." />
+            <marker date="1530533412067" expanded="true" signature="1035:1048" ph="..." />
+            <marker date="1530533412067" expanded="true" signature="1229:1242" ph="..." />
+            <marker date="1530533412067" expanded="true" signature="1437:1456" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/PeliculasController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="78" column="65" lean-forward="true" selection-start-line="78" selection-start-column="65" selection-end-line="78" selection-end-column="65" />
+          <folding>
+            <element signature="e#40#62#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

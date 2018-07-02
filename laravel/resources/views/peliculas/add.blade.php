@@ -18,6 +18,17 @@
         </div>
 
         <div class="form-group row">
+            <label class="col-md-4">Tipo de peli</label>
+            <select name="genre_id" class="col-md-8 form-control">
+                <option value="-1">Seleccione un pleasee</option>
+                @foreach($lista_generos  as $genero)
+                    <option value="{{$genero->id}}">{{$genero->name}}</option>
+                @endforeach
+            </select>
+        </div>
+
+
+        <div class="form-group row">
             <label class="col-md-4">Premios</label>
             <input class="col-md-8 form-control" value="{{old('awards')}}" name="awards">
         </div>

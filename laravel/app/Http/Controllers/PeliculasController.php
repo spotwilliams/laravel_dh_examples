@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Genero;
 use App\Models\Movie;
 use App\Models\Pelicula;
 use Illuminate\Http\Request;
@@ -30,7 +31,11 @@ class PeliculasController extends Controller
     
     public function add(Request $request)
     {
-        $view = view('peliculas.add');
+        $generos = Genero::where('active', '=', true)
+            ->get();
+        
+        $view = view('peliculas.add')
+            ->with('lista_generos', $generos);
         
         return $view;
     }
@@ -44,12 +49,13 @@ class PeliculasController extends Controller
                 'rating'       => 'required|numeric',
                 'awards'       => 'required|integer',
                 'release_date' => 'required',
-            
+                'genre_id'     => 'not_in:-1',
             ],
             [
                 'title.required'  => 'El nombre de la pelicula es obligatorio',
                 'rating.required' => 'El rating es obligatorio',
                 'rating.numeric'  => 'El rating es un campo numerico',
+                'genre_id.not_in' => 'Tenes que elegir un tipo si o si'
                 //                    'required' => 'El campo :attribute es obligatorio',
             ]);
         
@@ -76,6 +82,7 @@ class PeliculasController extends Controller
             $peli->rating       = $request->input('rating');
             $peli->awards       = $request->input('awards');
             $peli->release_date = $request->input('release_date');
+            $peli->genre_id     = $request->input('genre_id');
             
         } else {
             $peli = new Pelicula($request->except(['_token']));
