@@ -6,11 +6,11 @@
 @section('titulo_1', 'Listado de ')
 @section('titulo_2', 'peliculas')
 
-    {{$mensaje}}
+    <a href="/peliculas/add" class="btn btn-primary">Nueva!</a>
     <ul>
 
         @foreach($peliculas as $peli)
-            <li>{{$peli->title}}</li>
+            <li><a href="/peliculas/edit/{{$peli->id}}">{{$peli->title}}</a></li>
         @endforeach
     </ul>
 @endsection

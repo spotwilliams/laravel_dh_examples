@@ -14,7 +14,10 @@
 
         <div class="form-group row">
             <label class="col-md-4">Nombre de la peli</label>
-            <input class="col-md-8 form-control" value="{{old('title')}}" name="title">
+            {{--<input class="col-md-8 form-control"--}}
+            {{--                   value="{{ old('title')?old('title') : (isset($pelicula) ? $pelicula->title : '')}}" name="title">--}}
+            <input class="col-md-8 form-control"
+                   value="{{ old('title')?? ($pelicula->title ?? '') }}" name="title">
         </div>
 
         <div class="form-group row">
@@ -22,7 +25,7 @@
             <select name="genre_id" class="col-md-8 form-control">
                 <option value="-1">Seleccione un pleasee</option>
                 @foreach($lista_generos  as $genero)
-                    <option value="{{$genero->id}}">{{$genero->name}}</option>
+                    <option value="{{$genero->id}}" {{ old('genre_id') == $genero->id ? 'selected' : (isset($pelicula->genre_id) &&   $pelicula->genre_id === $genero->id? 'selected' : '')}}>{{$genero->name}}</option>
                 @endforeach
             </select>
         </div>

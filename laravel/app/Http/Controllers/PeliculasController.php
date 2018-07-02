@@ -95,4 +95,18 @@ class PeliculasController extends Controller
             ->with('exito', 'La pelicula ha sido guardada con éxito!');
         
     }
+    
+    public function editar($id)
+    {
+        $generos = Genero::where('active', '=', true)
+            ->get();
+        
+        $peli = Pelicula::find($id);
+        
+        $view = view('peliculas.add')
+            ->with('lista_generos', $generos)
+            ->with('pelicula', $peli);
+        
+        return $view;
+    }
 }

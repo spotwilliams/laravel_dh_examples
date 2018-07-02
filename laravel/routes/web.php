@@ -32,6 +32,7 @@ Route::get('listado/sith', 'SithController@lista');
 
 Route::get('peliculas/add', 'PeliculasController@add');
 Route::post('peliculas/add', 'PeliculasController@crear');
+Route::get('peliculas/edit/{id}', 'PeliculasController@editar');
 Route::get('peliculas', 'PeliculasController@index');
 
 
