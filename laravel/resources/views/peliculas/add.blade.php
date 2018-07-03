@@ -8,7 +8,7 @@
 
     @include('estaticos.mensajes')
 
-    <form method="post" action="/peliculas/add" class="form-horizontal">
+    <form method="post" action="/peliculas/add" class="form-horizontal" enctype="multipart/form-data">
         {{csrf_field()}}
 
 
@@ -45,6 +45,11 @@
         <div class="form-group row">
             <label class="col-md-4">Fecha de lanzamiento</label>
             <input class="col-md-8 form-control" value="{{old('release_date')}}" name="release_date" type="date">
+        </div>
+
+        <div class="form-group row">
+            <label class="col-md-4">Poster</label>
+            <input class="col-md-8 form-control" type="file" name="poster">
         </div>
 
         <div class="form-group row">

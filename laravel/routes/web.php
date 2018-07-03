@@ -42,6 +42,9 @@ Route::get('series', 'SeriesController@index');
 
 Route::get('generos', 'GeneroController@index');
 
+//
+Route::get('actores', 'ActoresController@index');
+
 
 
 

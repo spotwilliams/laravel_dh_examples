@@ -10,7 +10,10 @@
     <ul>
 
         @foreach($peliculas as $peli)
-            <li><a href="/peliculas/edit/{{$peli->id}}">{{$peli->title}}</a> ({{$peli->genero->name}})</li>
+            <li>
+                <img src="/storage/{{$peli->poster}}" class="img-circle">
+                <a href="/peliculas/edit/{{$peli->id}}">{{$peli->title}}</a> ({{$peli->genero->name}})
+            </li>
         @endforeach
     </ul>
 @endsection

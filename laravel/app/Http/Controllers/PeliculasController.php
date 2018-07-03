@@ -91,6 +91,22 @@ class PeliculasController extends Controller
         $peli->save();
         
         
+        // Guardamos el archivo despues del save para tener
+        // asegurado el ID de esa pelicula en la tabla de movies
+        
+        $file = $request->file('poster');
+        $name = 'non-image.jpg';
+        if ($file) {
+            
+            $name = 'movies_' . $peli->id . '.jpg';
+            
+            $ruta = $file->storePubliclyAs('./public', $name);
+        }
+        
+        $peli->poster = $name;
+        
+        $peli->save();
+        
         return redirect('/peliculas/add')
             ->with('exito', 'La pelicula ha sido guardada con éxito!');
         
