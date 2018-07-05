@@ -11,7 +11,19 @@ class DirectorSeeder extends Seeder
      */
     public function run()
     {
-        factory(\App\Models\Director::class, 10)
-            ->create();
+        $director = new \App\Models\Director([
+            'first_name' => 'George',
+            'last_name'  => 'Lucas',
+            'awards'     => 10,
+        ]);
+        
+        $director->save();
+        
+        
+        \App\Models\Director::create([
+            'first_name' => 'James',
+            'last_name'  => 'Cameron',
+            'awards'     => 11,
+        ]);
     }
 }
