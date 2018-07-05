@@ -12,7 +12,7 @@ class SeriesController extends Controller
         $view = view('series.index');
         
         $series = TvShow::all();
-        
+
         $view->with('series', $series);
         
         return $view;
