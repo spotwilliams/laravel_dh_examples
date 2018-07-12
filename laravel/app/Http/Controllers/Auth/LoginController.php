@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use App\User;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Socialite;
 
@@ -61,19 +62,25 @@ class LoginController extends Controller
         } catch (\Exception $exception) {
             dd($exception);
         }
-
-        $data    = [
-            'name'  => $user->name,
-            'email' => $user->email,
-            'password' => 'NA'
+        
+        $data = [
+            'name'     => $user->name,
+            'email'    => $user->email,
+            'password' => 'NA',
         ];
         
         // buscar el user en la db antes de guardarlo por las dudas
         // $u = User::where(email bla bla bal)->first()
         // if($u) {login} else {save and login}
         // logica muy parecido en el addPelicula
-        $userApp = new User($data);
-        $userApp->save();
+        
+        try {
+            $userApp = User::where('email', '=', $user->email)
+                ->firstOrFail();
+        } catch (ModelNotFoundException $e) {
+            $userApp = new User($data);
+            $userApp->save();
+        }
         
         $this->guard()->login($userApp);
         
