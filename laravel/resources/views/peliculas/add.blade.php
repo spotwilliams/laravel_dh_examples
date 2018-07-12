@@ -8,7 +8,9 @@
 
     @include('estaticos.mensajes')
 
-    <form method="post" action="/peliculas/add" class="form-horizontal" enctype="multipart/form-data">
+    <form method="post"
+          action="{{route('peliculas.store')}}"
+          class="form-horizontal" enctype="multipart/form-data">
         {{csrf_field()}}
 
 

@@ -17,43 +17,51 @@ Route::get('/', function () {
 
 
 Route::get('hola/nombre/{nombre}/apellido/{apellido?}'
-        , function ($nombre, $apellido = 'NA') {
-    echo "Hola $apellido, $nombre";
-});
+    , function ($nombre, $apellido = 'NA') {
+        echo "Hola $apellido, $nombre";
+    });
 
 
-Route::get('bienvenido', 'InicioController@index');
-
-
-Route::get('listado/jedis', 'JediController@lista');
-
-Route::get('listado/sith', 'SithController@lista');
-
-
-Route::get('peliculas/add', 'PeliculasController@add');
-Route::post('peliculas/add', 'PeliculasController@crear');
-Route::get('peliculas/edit/{id}', 'PeliculasController@editar');
-Route::get('peliculas', 'PeliculasController@index');
-
-
-Route::get('series', 'SeriesController@index');
+Route::middleware('auth')->group(function () {
+    
+    Route::get('bienvenido', 'InicioController@index');
+    
+    
+    Route::get('listado/jedis', 'JediController@lista');
+    
+    Route::get('listado/sith', 'SithController@lista');
+    
+    
+    Route::prefix('otra-cosa')->name('peliculas.')->group(function () {
+        
+        Route::get('add', 'PeliculasController@add')->name('create');
+        Route::post('add', 'PeliculasController@crear')->name('store');
+        Route::get('edit/{id}', 'PeliculasController@editar')->name('edit');
+        Route::get('/', 'PeliculasController@index')->name('index');
+        
+    });
+    
+    
+    Route::get('series', 'SeriesController@index');
 
 // Generos
-
-Route::get('generos', 'GeneroController@index');
+    
+    Route::get('generos', 'GeneroController@index');
 
 //
-Route::get('actores', 'ActoresController@index');
-
-
-
-
-
-
-
-
+    Route::get('actores', 'ActoresController@index');
+    
+    
+});
 
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+Route::resource('genres', 'GenreController');
+
+
+Route::get('login/google', 'Auth\LoginController@redirectToProvider');
+Route::get('login/google/callback', 'Auth\LoginController@handleProviderCallback');
